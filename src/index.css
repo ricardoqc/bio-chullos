@@ -29,6 +29,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .main_title {
     font-family: "Bangers", system-ui;
     font-size: 52px;
@@ -40,32 +41,37 @@
         3px -2px 1px #ffffff,
         4px -2px 0px #6B0014;
 }
+
 .title_section .subtitle {
     font-family: "Bangers", system-ui;
     font-size: 20px;
     color: #1c1c1c;
 }
-.social-links{
+
+.social-links {
     margin: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     P {
         font-family: "Raleway", sans-serif;
         font-size: 12px;
         color: #6c6c6c;
     }
 }
+
 .links {
-    margin: 5%;
     display: inline-flex;
     list-style: none;
     gap: 15px;
+    padding-left: 0px;
 }
-.social-links ul li a{  
+
+.social-links ul li a {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: #6B0014;
@@ -81,38 +87,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Espacio entre los botones */
-    padding: 20px; /* Espacio interior para todo el contenedor */
+    gap: 20px;
+    /* Espacio entre los botones */
+    padding: 20px;
+    /* Espacio interior para todo el contenedor */
 }
 
 /* Estilo general de los enlaces */
 .buttons_section a {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinea verticalmente los elementos dentro del enlace */
+    align-items: center;
+    /* Alinea verticalmente los elementos dentro del enlace */
     padding: 15px 20px;
-    width: 300px; /* Ancho fijo para uniformidad */
+    width: 300px;
+    /* Ancho fijo para uniformidad */
     border: 1px solid #6B0014;
     border-radius: 12px;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: #1c1c1c;
-    background-color: #ffffff; /* Fondo blanco por defecto */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    background-color: #ffffff;
+    /* Fondo blanco por defecto */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Transiciones suaves */
 }
 
 /* Contenido del botón (icono y texto) */
 .button_content {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espacio entre el icono y el texto */
+    gap: 10px;
+    /* Espacio entre el icono y el texto */
 }
 
 /* Hover en los enlaces */
 .buttons_section a:hover {
     background-color: #FFED4D;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera al hacer hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera al hacer hover */
 }
 
 /* Estilo del icono "flecha" */
@@ -130,3 +144,105 @@
     transition: background-color 0.3s ease, padding 0.3s ease;
 }
 
+/* Packs */
+.packs_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card_section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img_card img {
+    width: 140px;
+    border-radius: 7px;
+}
+
+.description_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    color: #6c6c6c;
+
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #6B0014;
+        margin: 0;
+    }
+
+    font-size: 12px;
+
+    i {
+        color: #6B0014;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.link {
+    color: #1c1c1c;
+}
+
+.button {
+    border: 1px solid #6B0014;
+    border-radius: 7px;
+    padding: 7px 15px;
+    background-color: #ffffff;
+
+    a {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        color: #1c1c1c;
+    }
+}
+
+/* Ubication Section */
+.ubication_section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.map-container {
+    margin: 0;
+    width: 393px;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+}
+
+.map-container iframe {
+    width: 100%;
+}
+
+/* Footer Section */
+.footer_section{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #c7c7c7;
+    font-size: 10px;
+    a{
+        text-decoration: none;
+        color: #c7c7c7;
+    }
+}

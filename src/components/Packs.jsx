@@ -1,4 +1,9 @@
 import React from 'react'
+import { FaWhatsapp } from "react-icons/fa";
+import cusco_img1 from '../assets/catalog/cusco1.jpg'
+import cusco_img2 from '../assets/catalog/cusco2.jpg'
+import cusco_img3 from '../assets/catalog/cusco3.jpg'
+
 
 export const Packs = () => {
     return (
@@ -11,37 +16,37 @@ export const Packs = () => {
                 <div className="card">
                     <div className="img_card">
                         <picture>
-                            <img src="#" alt="" />
+                            <img src={cusco_img1} alt="" />
                         </picture>
                     </div>
                     <div className="description_card">
                         <h2>Descubre Cusco en 4 Días</h2>
-                        <span>Incluye: <p>alojamiento, transporte</p></span>
-                        <span><i></i> Consultar</span>
+                        <span>Incluye: <em>alojamiento, transporte</em></span>
+                        <a href="http://"><span className='link'><i><FaWhatsapp /></i> Consultar</span></a>
                     </div>
                 </div>
                 <div className="card">
                     <div className="img_card">
                         <picture>
-                            <img src="#" alt="" />
+                            <img src={cusco_img2} alt="" />
                         </picture>
                     </div>
                     <div className="description_card">
                         <h2>Descubre Cusco en 4 Días</h2>
-                        <span>Incluye: <p>alojamiento, transporte</p></span>
-                        <span><i></i> Consultar</span>
+                        <span>Incluye: <em>alojamiento, transporte</em></span>
+                        <a href="http://"><span className='link'><i><FaWhatsapp /></i> Consultar</span></a>
                     </div>
                 </div>
                 <div className="card">
                     <div className="img_card">
                         <picture>
-                            <img src="#" alt="" />
+                            <img src={cusco_img3} alt="" />
                         </picture>
                     </div>
                     <div className="description_card">
                         <h2>Descubre Cusco en 4 Días</h2>
-                        <span>Incluye: <p>alojamiento, transporte</p></span>
-                        <span><i></i> Consultar</span>
+                        <span>Incluye: <em>alojamiento, transporte</em></span>
+                        <a href="http://"><span className='link'><i><FaWhatsapp /></i> Consultar</span></a>
                     </div>
                 </div>
             </div>

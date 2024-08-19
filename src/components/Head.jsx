@@ -17,11 +17,10 @@ export const Head = () => {
             <div className="social-links">
                 <p>Social Links:</p>
                 <ul className='links'>
-                    <li><a href="https://facebook.com"><FaFacebookF /></a></li>
-                    <li><a href="https://twitter.com"><FaWhatsapp /></a></li>
-                    <li><a href="https://instagram.com"><FaInstagram /></a></li>
-                    <li><a href="https://instagram.com"><FaTiktok /></a></li>
-                    <li><a href="https://instagram.com"><FaTripadvisor /></a></li>
+                    <li><a href="https://www.facebook.com/ChullosTours" target='_blank'><FaFacebookF /></a></li>
+                    <li><a href="https://www.instagram.com/chullostoursperu/" target='_blank'><FaInstagram /></a></li>
+                    <li><a href="https://www.tiktok.com/@chullostours.com" target='_blank'><FaTiktok /></a></li>
+                    <li><a href="https://www.tripadvisor.es/Attraction_Review-g294314-d26719669-Reviews-Chullos_Tours-Cusco_Cusco_Region.html" target='_blank'><FaTripadvisor /></a></li>
                 </ul>
             </div>
         </div>

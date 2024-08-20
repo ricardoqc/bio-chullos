@@ -4,4 +4,3 @@ deployment:
     - export DEPLOYPATH=/home/chullost/linkbio
     - npm install $DEPLOYPATH
     - npm run build $DEPLOYPATH
-    - /bin/cp -R dist/* $DEPLOYPATH

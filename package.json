@@ -1,5 +1,6 @@
 {
   "name": "bio-link-site",
+  "homepage": "http://bio.chullostours.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

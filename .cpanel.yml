@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/linkbio/
-    - npm install
-    - npm run build
+    - export DEPLOYPATH=/home/chullost/linkbio
+    - npm install $DEPLOYPATH
+    - npm run build $DEPLOYPATH
     - /bin/cp -R dist/* $DEPLOYPATH

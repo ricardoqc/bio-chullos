@@ -1,14 +1,22 @@
 import React from 'react';
 import Site_Logo from '../assets/site_imgs/logo.png';
+import hero_header from '../assets/catalog/cusco3.jpg';
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaTiktok, FaTripadvisor } from "react-icons/fa";
 
 export const Head = () => {
     return (
         <div>
-            <div className="brand">
-                <picture>
-                    <img src={Site_Logo} alt="" />
-                </picture>
+            <div className='header'>
+                <div className="hero-header">
+                    <picture>
+                        <img src={hero_header} alt="" />
+                    </picture>
+                </div>
+                <div className="brand">
+                    <picture>
+                        <img src={Site_Logo} alt="" />
+                    </picture>
+                </div>
             </div>
             <div className='title_section'>
                 <span className='subtitle'>Experiencias</span>

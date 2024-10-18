@@ -21,6 +21,17 @@
 .brand img {
     margin: 5%;
     width: 180px;
+    background-color: #ffffff;
+    margin-top: -60px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.hero-header img {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
 }
 
 .title_section {

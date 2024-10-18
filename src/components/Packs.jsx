@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPlus } from "react-icons/fa";
 import cusco_img1 from '../assets/catalog/cusco1.jpg'
 import cusco_img2 from '../assets/catalog/cusco2.jpg'
-import cusco_img3 from '../assets/catalog/cusco3.jpg'
+import cusco_img5 from '../assets/catalog/cusco5.jpg'
 import { cusco6dias, cusco5dias, lagunahumantay } from '../assets/links/urls_wpp'
 
 export const Packs = () => {
@@ -40,12 +40,12 @@ export const Packs = () => {
                 <div className="card">
                     <div className="img_card">
                         <picture>
-                            <img src={cusco_img3} alt="" />
+                            <img src={cusco_img5} alt="" />
                         </picture>
                     </div>
                     <div className="description_card">
                         <h2>Humantay Trek Full Day</h2>
-                        <span>Incluye: <em>alojamiento, transporte</em></span>
+                        <span>Incluye: <em>almuerzo, transporte</em></span>
                         <a href="https://chullostours.com/tours/laguna-humantay/" target='_blank'><span className='link'><i><FaPlus /></i> Ver Tour</span></a>
                     </div>
                 </div>
